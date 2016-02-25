@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <scenes>
+        <!--粉丝-->
+        <scene sceneID="fPI-eI-a6y">
+            <objects>
+                <viewController storyboardIdentifier="fansView" id="Fmn-ta-joz" customClass="FansViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="EGL-Be-G55"/>
+                        <viewControllerLayoutGuide type="bottom" id="DRK-sO-JUO"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="4LH-s7-3TU">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="no_fans_image" translatesAutoresizingMaskIntoConstraints="NO" id="O8r-1o-fg8">
+                                <rect key="frame" x="260" y="329" width="80" height="38"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="58m-qP-MfX"/>
+                                    <constraint firstAttribute="height" constant="38" id="Pto-zO-DMF"/>
+                                </constraints>
+                            </imageView>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="56" sectionHeaderHeight="1" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="JrD-Zu-Z8i">
+                                <rect key="frame" x="0.0" y="64" width="600" height="536"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="fansListCell" rowHeight="55" id="bNA-Cg-9Ox" customClass="FansListTableViewCell">
+                                        <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="bNA-Cg-9Ox" id="HsV-Az-npU">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="vJU-uF-Mnw">
+                                                    <rect key="frame" x="13" y="6" width="40" height="40"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="40" id="hxT-GM-Yno"/>
+                                                        <constraint firstAttribute="height" constant="40" id="kmt-Mj-qOe"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fXU-t8-HxE">
+                                                    <rect key="frame" x="59" y="19" width="36" height="17"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <color key="textColor" red="0.31764705879999999" green="0.31764705879999999" blue="0.31764705879999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Aqy-HV-XCC">
+                                                    <rect key="frame" x="503" y="10" width="84" height="32"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="84" id="7FM-Fr-xHB"/>
+                                                        <constraint firstAttribute="height" constant="32" id="P5Q-gJ-tc1"/>
+                                                    </constraints>
+                                                    <state key="normal">
+                                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                    </state>
+                                                    <connections>
+                                                        <action selector="attentionFansClick:" destination="bNA-Cg-9Ox" eventType="touchUpInside" id="9Vd-ZF-fCq"/>
+                                                    </connections>
+                                                </button>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="vJU-uF-Mnw" firstAttribute="leading" secondItem="HsV-Az-npU" secondAttribute="leading" constant="13" id="Aju-aX-1Qf"/>
+                                                <constraint firstAttribute="bottom" secondItem="Aqy-HV-XCC" secondAttribute="bottom" constant="12" id="UfL-bv-hd8"/>
+                                                <constraint firstAttribute="trailing" secondItem="Aqy-HV-XCC" secondAttribute="trailing" constant="13" id="X7I-Eo-dUN"/>
+                                                <constraint firstAttribute="bottom" secondItem="vJU-uF-Mnw" secondAttribute="bottom" constant="8" id="ZTY-PT-oTB"/>
+                                                <constraint firstItem="fXU-t8-HxE" firstAttribute="leading" secondItem="vJU-uF-Mnw" secondAttribute="trailing" constant="6" id="bGG-GX-lFV"/>
+                                                <constraint firstAttribute="centerY" secondItem="fXU-t8-HxE" secondAttribute="centerY" id="fnA-LN-JgO"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="fansButton" destination="Aqy-HV-XCC" id="Ygb-CG-m3q"/>
+                                            <outlet property="nicknameLabel" destination="fXU-t8-HxE" id="nXx-cR-ngf"/>
+                                            <outlet property="otherHeadImageView" destination="vJU-uF-Mnw" id="Rhu-q3-G04"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="JrD-Zu-Z8i" firstAttribute="leading" secondItem="4LH-s7-3TU" secondAttribute="leading" id="IlJ-7P-chr"/>
+                            <constraint firstItem="DRK-sO-JUO" firstAttribute="top" secondItem="O8r-1o-fg8" secondAttribute="bottom" constant="233" id="Nwq-Db-bRr"/>
+                            <constraint firstAttribute="bottom" secondItem="JrD-Zu-Z8i" secondAttribute="bottom" id="Rla-76-gKb"/>
+                            <constraint firstItem="JrD-Zu-Z8i" firstAttribute="top" secondItem="EGL-Be-G55" secondAttribute="bottom" id="Yxu-wh-kb7"/>
+                            <constraint firstAttribute="centerX" secondItem="O8r-1o-fg8" secondAttribute="centerX" id="ggO-OO-LBc"/>
+                            <constraint firstAttribute="trailing" secondItem="JrD-Zu-Z8i" secondAttribute="trailing" id="u39-Pq-m0d"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="粉丝" id="LzC-FK-K1I"/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <connections>
+                        <outlet property="tableView" destination="JrD-Zu-Z8i" id="BhS-Vo-qcf"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gYZ-JH-lU9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="575" y="359"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="no_fans_image" width="80" height="38"/>
+    </resources>
+</document>

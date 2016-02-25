@@ -1,0 +1,63 @@
+PODS:
+  - AFNetworking (2.5.4):
+    - AFNetworking/NSURLConnection (= 2.5.4)
+    - AFNetworking/NSURLSession (= 2.5.4)
+    - AFNetworking/Reachability (= 2.5.4)
+    - AFNetworking/Security (= 2.5.4)
+    - AFNetworking/Serialization (= 2.5.4)
+    - AFNetworking/UIKit (= 2.5.4)
+  - AFNetworking/NSURLConnection (2.5.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.5.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.5.4)
+  - AFNetworking/Security (2.5.4)
+  - AFNetworking/Serialization (2.5.4)
+  - AFNetworking/UIKit (2.5.4):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - CTAssetsPickerController (2.9.4)
+  - GPUImage (0.1.7)
+  - JSONModel (1.1.0)
+  - Masonry (0.6.1)
+  - MBProgressHUD (0.9.1)
+  - MJRefresh (2.0.4)
+  - PNChart (0.8.5):
+    - UICountingLabel (~> 1.2.0)
+  - Qiniu (7.0.11.1):
+    - AFNetworking (~> 2.0)
+  - TuSDK (1.8.4):
+    - GPUImage (~> 0.1.6)
+  - UICountingLabel (1.2.0)
+
+DEPENDENCIES:
+  - AFNetworking (~> 2.0)
+  - CTAssetsPickerController (~> 2.9.0)
+  - GPUImage
+  - JSONModel
+  - Masonry
+  - MBProgressHUD (~> 0.9.1)
+  - MJRefresh
+  - PNChart (~> 0.8.5)
+  - Qiniu (~> 7.0)
+  - TuSDK (~> 1.8.4)
+  - UICountingLabel
+
+SPEC CHECKSUMS:
+  AFNetworking: 05edc0ac4c4c8cf57bcf4b84be5b0744b6d8e71e
+  CTAssetsPickerController: 3030dc60f5d1a3c4e5b1c0aa9f069220d5bf7008
+  GPUImage: 733a5f0fab92df9de1c37ba9df520a833ccb406d
+  JSONModel: ec77e9865236a7a09d9cf7668df6b4b328d9ec1d
+  Masonry: 4972309f2f134de9dd312f4dc4a21359b50e6caa
+  MBProgressHUD: c47f2c166c126cf2ce36498d80f33e754d4e93ad
+  MJRefresh: ea153717001d3c02444bd22b75c111d2937d2104
+  PNChart: 353d27a13634c94d090ed65909776d5ceab55f31
+  Qiniu: 080a6728b969f6b0e77c9de574ede37e78b0912b
+  TuSDK: 236d8c3b92d1b7dfa56f9c33c2e315331c5d928c
+  UICountingLabel: 1db4e7d023e1762171eb226d6dff47a7a84f27aa
+
+COCOAPODS: 0.37.2
