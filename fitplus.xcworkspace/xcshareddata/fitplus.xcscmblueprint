@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "BA1AD8181537866A88576D0A95C8DE554D958B19",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "BA1AD8181537866A88576D0A95C8DE554D958B19" : 0,
+    "2CDC4B2C06DD3496C645FB75923A659AF600BEC5" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "6236A838-CA0F-4312-AB14-BC3467268D56",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "BA1AD8181537866A88576D0A95C8DE554D958B19" : "So\/",
+    "2CDC4B2C06DD3496C645FB75923A659AF600BEC5" : "Gym3.0"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "fitplus",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "fitplus.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/wx.gatao.cn\/ios\/fitplus.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "2CDC4B2C06DD3496C645FB75923A659AF600BEC5"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/xiangxiaopenyou\/So.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "BA1AD8181537866A88576D0A95C8DE554D958B19"
+    }
+  ]
+}

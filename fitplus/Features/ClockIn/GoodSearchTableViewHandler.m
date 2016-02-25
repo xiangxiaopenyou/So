@@ -26,6 +26,7 @@
 @end
 
 @implementation GoodSearchTableViewHandler
+//可以删除
 
 - (instancetype)initWithSearchDisplayController:(UISearchDisplayController *)searchDisplayController handler:(TableViewSelectedHandler)handler fetchType:(FetchType)fetchType {
     self = [super init];
